@@ -4603,6 +4603,12 @@
 
 	</activity>
 
+        <!-- Face enroll -->
+        <activity android:theme="@style/SudThemeGlif.Light"
+                  android:name="com.android.settings.biometrics.face.FaceEnrollActivityDirector"
+                  android:exported="true"
+                  android:screenOrientation="portrait"/>
+                  
         <!-- ColtEnigma -->
         <activity android:name=".Settings$ColtEnigmaActivity"
             android:label="@string/colt_settings_dash_title"
